@@ -26,12 +26,12 @@
 
   .container {
     margin: 200px auto 0 auto;
-    border: 10px solid white;
+    /*border: 10px solid white;*/
     height: 350px;
   }
 
   .fa-music {
-    font-size: 90px;
+    font-size: 300px;
     border-radius: 30px;
     border: 10px solid black;
     padding: 10px 10px 10px 10px;
@@ -48,9 +48,40 @@
     100% { background: #d30000; }
   }
 
+  .song-title {
+    font-size: 100px;
+    margin-top: 0px;
+  }
   
   
   .current-time, .duration {
     color: white;
   }
+
+
+  .slider {
+    width: 85%
+  }
+  .buttons {
+    margin-top: 10px;
+  }
+
+  .go-back, .pause, .go-forward {
+    background-color: black;
+    border: black;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 40px;
+  }
+
+  .fa-backward, .fa-forward, .fa-pause {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: gray;
+  }
   
+  .fa-backward:hover, .fa-forward:hover, .fa-pause:hover {
+    color: white;
+    font-size: 42px;
+    transition: color 0.2s ease, font-size 1s ease;
+  }

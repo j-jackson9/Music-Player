@@ -16,17 +16,21 @@
         <div class="music logo">
             <i class="fa-solid fa-music"></i>
                 <div class ="song-name">
-                    <h1>Song Name</h1>
-                        <div class="buttons">
+                    <h1 class="song-title">Song Name</h1>
                             <span class="current-time">00:00</span>
-                            <input type="range" class="slider" id="progress-slider" min="0" max="100">
+                            <input type="range" class="slider" id="progress-slider" min="0" max="100" />
                             <span class="duration">00:00</span>
                         </br>
-                            <button class="go-back"></button>
+                        <div class="buttons">
+                            <button class="go-back"><i class="fa-solid fa-backward"></i></button>
+                            <button class="pause"><i class="fa-solid fa-pause"></i></button>
+                            <button class="go-forward"><i class="fa-solid fa-forward"></i></button>
                         </div>
+                        <audio id="audio-player" src="something.mp3"></audio>
                 </div>
         </div>
     </div>
     <script src="https://kit.fontawesome.com/71330fe78e.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
 </body>
 </html>
