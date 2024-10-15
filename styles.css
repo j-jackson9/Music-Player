@@ -25,7 +25,7 @@
   }
 
   .container {
-    margin: 200px auto 0 auto;
+    margin: 100px auto 0 auto;
     /*border: 10px solid white;*/
     height: 350px;
   }
@@ -74,13 +74,17 @@
     font-size: 40px;
   }
 
-  .fa-backward, .fa-forward, .fa-pause {
+  .fa-backward, .fa-forward, .fa-pause, .fa-play {
     margin-left: 10px;
     margin-right: 10px;
     color: gray;
   }
+
+  .play {
+    display: none;
+  }
   
-  .fa-backward:hover, .fa-forward:hover, .fa-pause:hover {
+  .fa-backward:hover, .fa-forward:hover, .fa-pause:hover, .fa-play:hover {
     color: white;
     font-size: 42px;
     transition: color 0.2s ease, font-size 1s ease;
