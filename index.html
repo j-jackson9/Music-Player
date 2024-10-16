@@ -15,20 +15,21 @@
     <div class="container">
         <div class="music logo">
             <i class="fa-solid fa-music"></i>
-                <div class ="song-name">
-                    <h1 class="song-title">Song Name</h1>
-                            <span class="current-time">00:00</span>
-                            <input type="range" class="slider" id="progress-slider" min="0" max="100" />
-                            <span class="duration">00:00</span>
-                        </br>
-                        <div class="buttons">
-                            <button class="go-back"><i class="fa-solid fa-backward"></i></button>
-                            <button class="pause" id="toggle-button"><i class="fa-solid fa-pause fa-play"></i></button>
-                            <button class="go-forward"><i class="fa-solid fa-forward"></i></button>
-                        </div>
-                        <ul id="playlist"></ul>
-                        <audio id="audio-player"></audio>
+            <div class="song-name">
+                <!--<h1 class="song-title">Song Name</h1>-->
+                <br/>
+                <br/>
+                <span class="current-time">00:00</span>
+                <input type="range" class="slider" id="progress-slider" min="0" max="100" value="0"/>
+                <span class="duration">00:00</span>
+                <br>
+                <div class="buttons">
+                    <button class="pause" id="toggle-button"><i class="fa-solid fa-play"></i></button>
+                    <button class="go-forward"><i class="fa-solid fa-arrow-right"></i></button>
                 </div>
+                <ul id="playlist"></ul>
+                <audio id="audio-player"></audio>
+            </div>
         </div>
     </div>
     <script src="https://kit.fontawesome.com/71330fe78e.js" crossorigin="anonymous"></script>
