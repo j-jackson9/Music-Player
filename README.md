@@ -1,4 +1,4 @@
-﻿div align="center">
+<﻿div align="center">
   <h1> Music Player</h1>
 <br>
   <strong>Built by Jordan Jackson</strong>
