@@ -33,7 +33,21 @@ toggleButton.addEventListener('click', () => {
 const playList = [
   { title: "Song 1", src: "watermarked_Esai_For_You_instrumental_3_15.mp3"},
   { title: "Song 2", src: "1015.MP3"},
-  { title: "Song 3", src: "1015(1).MP3"}
+  { title: "Song 3", src: "1015(1).MP3"},
+  { title: "Song 4", src: "1015(2).MP3"},
+  { title: "Song 5", src: "1015(3).MP3"},
+  { title: "Song 6", src: "1015(4).MP3"},
+  { title: "Song 7", src: "1015(5).MP3"},
+  { title: "Song 8", src: "1015(6).MP3"},
+  { title: "Song 9", src: "1015(7).MP3"},
+  { title: "Song 10", src: "1015(8).MP3"},
+  { title: "Song 11", src: "1015(9).MP3"},
+  { title: "Song 12", src: "1015(10).MP3"},
+  { title: "Song 13", src: "1015(11).MP3"},
+  { title: "Song 14", src: "1015(12).MP3"},
+  { title: "Song 15", src: "1015(13).MP3"},
+  { title: "Song 16", src: "1015(14).MP3"},
+  { title: "Song 17", src: "1015(14).MP3"}
 ];
 
 const randomSong = (list) => {
